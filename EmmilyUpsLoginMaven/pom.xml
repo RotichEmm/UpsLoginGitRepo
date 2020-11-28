@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.emmilyUpsLoginmaven</groupId>
   <artifactId>EmmilyUpsLoginMaven</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <developers>
 <developer>
 <name>Emmily</name>
@@ -17,10 +17,11 @@
 <dependencies>
 <!--
 https://mvnrepository.com/artifact/org.seleniumhq.selenium/seleniumjava -->
+
 <dependency>
 	<groupId>org.seleniumhq.selenium</groupId>
 	<artifactId>selenium-java</artifactId>
-	<version>3.141.59</version>
+	<version>3.6.0</version>
 
 </dependency>
 
@@ -39,10 +40,10 @@ https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-drive
 <plugins>
 <plugin>
 <artifactId>maven-compilerplugin</artifactId>
-<version>3.6.0</version> 
+<version>3.7.0</version> 
 <configuration>
-<source>1.6</source>
-<target>1.6</target>
+<source>1.8</source>
+<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
