@@ -21,22 +21,20 @@ https://mvnrepository.com/artifact/org.seleniumhq.selenium/seleniumjava -->
 <dependency>
 	<groupId>org.seleniumhq.selenium</groupId>
 	<artifactId>selenium-java</artifactId>
-	<version>3.6.0</version>
-
-</dependency>
-
-<!--
-https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
-<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-chrome-driver</artifactId>
 	<version>3.141.59</version>
+
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>4.0.0-alpha-7</version>
+</dependency>
 
 </dependencies>
 <build>
- <sourceDirectory> src/main/ </sourceDirectory>
+ <!--sourceDirectory> src/main/ </sourceDirectory-->
 <plugins>
 <plugin>
 <artifactId>maven-compilerplugin</artifactId>
